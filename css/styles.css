@@ -12,8 +12,30 @@
      list-style: none;
  }
 
+
+
  .main-page {
      background-color: #2e2f42;
+     padding-top: 188px;
+     padding-bottom: 188px;
+
+ }
+
+ .cotainer {
+     border-bottom: 1px solid #e7e9fc;
+ }
+
+
+ .logo-container {
+     display: flex;
+     width: 1158px;
+     margin: 0 auto;
+     padding: 0 15px 0 15px;
+ }
+
+ .view-container {
+     display: flex;
+     align-items: center;
  }
 
  .main-page-hello-text {
@@ -22,6 +44,7 @@
      letter-spacing: 0.02em;
      text-align: center;
      color: #fff;
+     max-width: 496px;
  }
 
  .main-page-buttom {
@@ -34,6 +57,11 @@
      border: none;
      background-color: #4D5AE5;
      font-weight: 500;
+     display: block;
+     min-width: 169px;
+     height: 56px;
+     border: none;
+     border-radius: 4px;
  }
 
  .main-page-buttom:hover,
@@ -47,7 +75,13 @@
      line-height: 1.2;
      letter-spacing: 0.02em;
      color: #2e2f42;
+     margin-bottom: 8px;
 
+
+ }
+
+ .data-team-container-menu-title {
+     width: calc((100% - 72px) / 4);
  }
 
  .main-page-title-text {
@@ -63,15 +97,50 @@
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #2e2f42;
+     margin-right: 0;
+     padding-top: 24px;
+     padding-bottom: 24px;
+ }
+
+ .data-team {
+     padding-top: 120px;
+     padding-bottom: 120px;
+ }
+
+ .visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+ }
+
+ .data-team-container-menu {
+     display: flex;
+     gap: 24px;
+     margin-right: 0;
+ }
+
+
+
+ .data-social-links {
+     display: flex;
+     gap: 40px;
+     margin-right: 0;
 
  }
+
 
  .social-links {
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #434455;
-
  }
 
 
@@ -86,6 +155,12 @@
      color: #404bbf;
  }
 
+ .menu {
+     display: flex;
+     gap: 40px;
+ }
+
+
  .link-logo {
      font-family: "Raleway", sans-serif;
      font-weight: 700;
@@ -94,6 +169,7 @@
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #4d5ae5;
+     margin-right: 76px;
 
  }
 
@@ -113,6 +189,8 @@
 
  .card {
      background: #f4f4fd;
+     padding-top: 120px;
+     padding-bottom: 120px;
  }
 
  .card-title-hello {
@@ -120,16 +198,35 @@
      font-size: 36px;
      line-height: 1.11;
      letter-spacing: 0.02em;
-     text-align: center;
      color: #2e2f42;
-     text-transform: capitalize
+     text-transform: capitalize;
+     margin-bottom: 72px;
+     text-align: center;
  }
 
+ .card-title-hello-menu {
+     display: flex;
+     gap: 24px;
+     margin-right: 0;
 
+
+ }
+
+ .person-data-container {
+     padding-top: 32px;
+     padding-bottom: 32px;
+     width: calc((100% - 72px) / 4);
+     border-radius: 0px 0px 4px 4px;
+
+ }
 
  .card-title-view {
-     background-color: #FFFFFF
+     background-color: #FFFFFF;
+
+
+
  }
+
 
 
 
@@ -139,6 +236,8 @@
      line-height: 1.2;
      letter-spacing: 0.02em;
      color: #2e2f42;
+     text-align: center;
+     margin-bottom: 8px;
  }
 
  .card-text {
@@ -146,6 +245,7 @@
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #434455;
+     text-align: center;
  }
 
  .title-card-hello {
@@ -155,7 +255,8 @@
      letter-spacing: 0.02em;
      text-align: center;
      color: #2e2f42;
-     text-transform: capitalize
+     text-transform: capitalize;
+     margin-bottom: 72px;
  }
 
  .project-card-title {
@@ -164,6 +265,7 @@
      line-height: 1.2;
      letter-spacing: 0.02em;
      color: #2e2f42;
+     margin-bottom: 8px;
  }
 
  .project-card-text {
@@ -175,7 +277,22 @@
 
  .project-card-view {
      background-color: #FFFFFF;
+     display: flex;
+     flex-wrap: wrap;
+     column-gap: 24px;
+     row-gap: 48px;
+     margin-bottom: 0;
 
+
+ }
+
+
+
+ .project-portfolio {
+     padding: 32px 16px;
+     border: 1px solid #e7e9fc;
+     border-top: none;
+     width: calc((100% - 48px) / 3);
  }
 
  .data-view {
@@ -187,4 +304,26 @@
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #f4f4fd;
+     padding-top: 100px;
+     padding-bottom: 100px;
+     max-width: 264px;
+
+ }
+
+ .link-logo-data {
+     font-family: "Raleway", sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #4d5ae5;
+     margin-right: 76px;
+     display: inline-block;
+     margin-bottom: 16px;
+ }
+
+ .title-card {
+     padding-top: 120px;
+     padding-bottom: 120px;
  }

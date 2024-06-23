@@ -12,6 +12,9 @@
      list-style: none;
  }
 
+ img {
+     display: block;
+ }
 
 
  .main-page {
@@ -25,13 +28,15 @@
      border-bottom: 1px solid #e7e9fc;
  }
 
-
- .logo-container {
+ .container {
      display: flex;
      width: 1158px;
      margin: 0 auto;
      padding: 0 15px 0 15px;
  }
+
+
+
 
  .view-container {
      display: flex;
@@ -80,9 +85,7 @@
 
  }
 
- .data-team-container-menu-title {
-     width: calc((100% - 72px) / 4);
- }
+
 
  .main-page-title-text {
      font-size: 16px;
@@ -124,8 +127,12 @@
      display: flex;
      gap: 24px;
      margin-right: 0;
+
  }
 
+ .data-team-container-menu-title {
+     width: calc((100% - 72px) / 4);
+ }
 
 
  .data-social-links {
@@ -215,13 +222,14 @@
  .person-data-container {
      padding-top: 32px;
      padding-bottom: 32px;
-     width: calc((100% - 72px) / 4);
-     border-radius: 0px 0px 4px 4px;
+
 
  }
 
  .card-title-view {
      background-color: #FFFFFF;
+     width: calc((100% - 72px) / 4);
+     border-radius: 0px 0px 4px 4px;
 
 
 
@@ -296,7 +304,9 @@
  }
 
  .data-view {
-     background-color: #2e2f42
+     background-color: #2e2f42;
+     padding-top: 100px;
+     padding-bottom: 100px;
  }
 
  .data-view-text {
@@ -304,8 +314,6 @@
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #f4f4fd;
-     padding-top: 100px;
-     padding-bottom: 100px;
      max-width: 264px;
 
  }

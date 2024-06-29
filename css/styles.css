@@ -9,9 +9,26 @@
 
  }
 
+ li {
+     margin-right: 0
+ }
+
  ul {
      list-style: none;
      padding: 0;
+     margin: 0;
+ }
+
+ .container-data {
+     display: flex;
+ }
+
+
+ h1,
+ h2,
+ h3,
+ p {
+
      margin: 0;
  }
 
@@ -38,8 +55,6 @@
      margin: 0 auto;
      padding-left: 15px;
      padding-right: 15px;
-
-
 
  }
 
